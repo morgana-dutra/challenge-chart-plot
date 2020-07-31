@@ -1,0 +1,74 @@
+.modal{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+	z-index: 99;
+	display: none;
+}
+
+.modal.open{
+	display: block;
+}
+
+.modal1{
+	position: absolute;
+	width: 450px;
+	height: 280px;
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.7);
+	left: calc(50% - 450px*0.5);
+	top: 10%;
+	z-index: 199;
+	padding: 30px;
+	padding-bottom: 15px;
+	display: none;
+}
+
+.modal1.open{
+	display: block;
+}
+
+.modal1 .content{
+	height: 100%;
+	position: relative;
+}
+
+.modal1 .title{
+	font-size: 21px;
+	text-align: center;
+}
+
+.modal1 .error-message{
+	margin-top: 15px;
+	text-align: center;
+}
+
+
+.modal1 .stack{
+	margin-top: 15px;
+	text-align: left;
+	font-size: 12px;
+	max-height: 85px;
+	line-height: 1.5;
+	overflow-y: auto;
+	background-color: rgb(238, 238, 238);
+	padding: 5px;
+}
+
+.modal1 .btn{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+}
+
+.modal1 .btn button{
+	height: 30px;
+	width: 70px;
+	background-color: #0777e7;
+  	color: white;
+  	font-size: 13px;
+  	align-self: center;
+}

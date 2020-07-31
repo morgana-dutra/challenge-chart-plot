@@ -1,0 +1,17 @@
+.ace-editor{
+	font-family: 'Source Code Pro';
+}
+
+.ace-monokai{
+	background: #282f3b !important;
+}
+
+.editor{
+	height: 220px;
+}
+
+.editor .resize-btn{
+	display: block;
+	background: #040407;
+	left: calc(50% - 25px * 0.5);
+}

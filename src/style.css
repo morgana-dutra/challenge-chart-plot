@@ -1,0 +1,14 @@
+body {
+  
+  font-family: source-code-pro, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, sans-serif;
+}
+
+*, *:before, *:after{
+	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}

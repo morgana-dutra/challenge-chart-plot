@@ -1,0 +1,33 @@
+.chart-position{
+	padding: 30px ;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.chart-size{
+	width: 70%;
+}
+
+.subtitle ul{
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.subtitle ul li{
+	font-size: 0.8em;
+	font-weight: bold;
+	padding-left: 35px;
+	margin: 5px 0;
+	position: relative;
+}
+
+.subtitle ul li span{
+	content: '';
+	background-color: inherit;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	left: 0px;
+	top: calc(50% - 7.5px);
+}
